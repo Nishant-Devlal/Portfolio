@@ -5,5 +5,6 @@ I have also made this website responsive so that it can work properly on differe
 
 # Screenshots
 <img width="1917" height="967" alt="Screenshot 2026-08-15 131633" src="https://github.com/user-attachments/assets/0a81c416-ca52-445e-bb18-ae23b26b8223" />
+<img width="1901" height="968" alt="Screenshot 2026-08-24 071540" src="https://github.com/user-attachments/assets/09f6120d-20d9-4953-97b6-d0dde7477bdd" />
 
 Visit here -> https://nishant-devlal.github.io/Portfolio/
