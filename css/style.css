@@ -473,6 +473,98 @@ color: var(--accent-hover);
     transform: scale(1.04);
 }
 
+.certificates-container {
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 10px 5px 25px;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+}
+
+.certificates-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.certificates-container::-webkit-scrollbar-track {
+    background: var(--background);
+    border-radius: 10px;
+}
+
+.certificates-container::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 10px;
+}
+
+.certificates-container::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+.certificate-card {
+    flex: 0 0 360px;
+
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    scroll-snap-align: start;
+
+    transition:
+        transform var(--transition),
+        border-color var(--transition);
+}
+
+.certificate-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--accent);
+}
+
+.certificate-image {
+    width: 100%;
+    height: 240px;
+
+    overflow: hidden;
+
+    background: var(--background);
+}
+
+.certificate-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    transition: transform 0.4s ease;
+}
+
+.certificate-card:hover .certificate-image img {
+    transform: scale(1.03);
+}
+
+.certificate-content {
+    padding: 20px;
+}
+
+.certificate-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.certificate-content p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.certificate-content span {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
 .timeline {
 position: relative;
 max-width: 850px;

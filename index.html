@@ -19,6 +19,7 @@
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
             <a href="#education">Education</a>
             <a href="#resume">Resume</a>
             <a href="#contact">Contact</a>
@@ -175,308 +176,453 @@
 
 
     <section id="projects" class="section">
-    <div class="container">
-        <div class="section-heading">
-            <p class="section-label">What I've built</p>
-            <h2>Projects</h2>
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">What I've built</p>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="project-category">
+                <div class="project-category-heading">
+                    <h3>Featured Projects</h3>
+                    <p>
+                        Some of my major projects involving AI, machine learning,
+                        software development and application design.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/rag-chatbot.png" alt="RAG Chatbot application">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">01</div>
+                            <h3>RAG Chatbot</h3>
+                            <p>
+                                A Retrieval-Augmented Generation chatbot that
+                                retrieves relevant information from uploaded
+                                documents and generates context-aware answers.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>FAISS</span>
+                                <span>Transformers</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Nishant-Devlal/RAG-Chatbot" target="_blank" rel="noopener noreferrer">
+                                    GitHub
+                                </a>
+                                <a href="https://rag-chatbot-by-nishant-devlal.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                                    Try it Live
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/multimedia-recommender.png" alt="Multimedia Recommender application">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">02</div>
+                            <h3>Multimedia Recommendation System</h3>
+                            <p>
+                                A recommendation platform that provides personalized
+                                song, movie and book recommendations using
+                                machine learning and content-based techniques.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Streamlit</span>
+                                <span>NLP</span>
+                                <span>Machine Learning</span>
+                            </div>
+                            <div class="project-links">
+                                <a 
+                                    href="https://github.com/Nishant-Devlal/Multimedia-Recommendation-System"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <a href="https://multimedia-recommendation-system-by-nishant-devlal.streamlit.app/" target="_blank" rel="noopener noreferrer">
+                                    Try it Live
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/ai-coding-platform.png" alt="AI Coding Platform">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">03</div>
+                            <h3>AI Coding Platform</h3>
+                            <p>
+                                A LeetCode-style coding platform with an AI assistant 
+                                that provides contextual hints and guidance without directly revealing solutions.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Next.js</span>
+                                <span>FastAPI</span>
+                                <span>PostgreSQL</span>
+                                <span>Redis</span>
+                            </div>
+                            <div class="project-links">
+                                <a 
+                                    href="https://github.com/Nishant-Devlal/AI-Coding-Platform"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <!-- <a href="" target="_blank" rel="noopener noreferrer">
+                                    Try it Live
+                                </a> -->
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/plant-disease-detection.png" alt="PlantGuard AI">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">04</div>
+                            <h3>PlantGuard AI</h3>
+                            <p>
+                                A plant disease detection web app that uses a deep learning model
+                                to identify diseases from images of plant leaves.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>Tensorflow</span>
+                                <span>Numpy</span>
+                                <span>Opencv</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Plant-Disease-Detection"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <a
+                                    href="https://plant-disease-detection-by-nishant-devlal.streamlit.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Try it live
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/stega-seal.png" alt="Stega Seal">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">05</div>
+                            <h3>Stega Seal</h3>
+                            <p>
+                                A desktop steganography application built with
+                                Python and Tkinter that allows users to hide and
+                                extract text messages inside images.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                                <span>PIL</span>
+                                <span>Stegano</span>
+                                <span>pyttsx3</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Stega-Seal-Seal-Text-in-Images-Steganography-Application-/tree/main"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Stega-Seal-Seal-Text-in-Images-Steganography-Application-/releases/tag/v1.2.003"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Download App
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+
+            <div class="project-category other-projects">
+                <div class="project-category-heading">
+                    <h3>Other Projects</h3>
+                    <p>
+                        Smaller applications and projects that helped me
+                        strengthen my programming and development skills.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/calculator.png" alt="Calculator application">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">06</div>
+                            <h3>Calculator Application</h3>
+                            <p>
+                                A desktop calculator application built with
+                                Python and Tkinter that provides a graphical
+                                interface for performing arithmetic operations.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Tkinter</span>
+                                <span>GUI</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Simple-Calculator-Using-Python"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Simple-Calculator-Using-Python/releases/tag/v1.0"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Download App
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/song-recommender.png" alt="Song Recommender application">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">07</div>
+                            <h3>Song Recommendation System</h3>
+                            <p>
+                                A content-based song recommendation system that uses
+                                TF-IDF vectorization and cosine similarity on song lyrics
+                                to recommend similar Bollywood songs.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Streamlit</span>
+                                <span>Spotipy</span>
+                                <span>TF-IDF Vectorizer</span>
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    href="https://github.com/Nishant-Devlal/Song-Recommendation-System"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    GitHub
+                                </a>
+                                <a
+                                    href="https://song-recommendation-system-by-nishant-devlal.streamlit.app/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Try it Live
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/coming-soon.png" alt="Coming Soon">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-number">08</div>
+                            <h3>More Projects Coming Soon</h3>
+                            <p>
+                                I'm continuously working on new software,
+                                machine learning and AI projects. More projects
+                                will be added here as I build them.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>C++</span>
+                                <span>AI/ML</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
         </div>
 
-        <div class="project-category">
-            <div class="project-category-heading">
-                <h3>Featured Projects</h3>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="section-heading">
+                <p class="section-label">My achievements</p>
+                <h2>Certificates</h2>
                 <p>
-                    Some of my major projects involving AI, machine learning,
-                    software development and application design.
+                    Certifications and courses I've completed to strengthen
+                    my technical skills.
                 </p>
             </div>
 
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/rag-chatbot.png" alt="RAG Chatbot application">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-number">01</div>
-                        <h3>RAG Chatbot</h3>
-                        <p>
-                            A Retrieval-Augmented Generation chatbot that
-                            retrieves relevant information from uploaded
-                            documents and generates context-aware answers.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>FAISS</span>
-                            <span>Transformers</span>
-                            <span>Streamlit</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nishant-Devlal/RAG-Chatbot" target="_blank" rel="noopener noreferrer">
-                                GitHub
-                            </a>
-                            <a href="https://rag-chatbot-by-nishant-devlal.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                                Try it Live
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            
+            <div class="certificates-container">
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/multimedia-recommender.png" alt="Multimedia Recommender application">
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/cn-certificate.png"
+                            alt="Certificate 1"
+                        >
                     </div>
-                    <div class="project-content">
-                        <div class="project-number">02</div>
-                        <h3>Multimedia Recommendation System</h3>
-                        <p>
-                            A recommendation platform that provides personalized
-                            song, movie and book recommendations using
-                            machine learning and content-based techniques.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Scikit-learn</span>
-                            <span>Streamlit</span>
-                            <span>NLP</span>
-                            <span>Machine Learning</span>
-                        </div>
-                        <div class="project-links">
-                            <a 
-                                href="https://github.com/Nishant-Devlal/Multimedia-Recommendation-System"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <a href="https://multimedia-recommendation-system-by-nishant-devlal.streamlit.app/" target="_blank" rel="noopener noreferrer">
-                                Try it Live
-                            </a>
-                        </div>
+                    <div class="certificate-content">
+                        <h3>Bits and Bytes of Computer Networking</h3>
+                        <p>Coursera/Google</p>
+                        <span>2026</span>
                     </div>
                 </article>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/ai-coding-platform.png" alt="AI Coding Platform">
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/data-certificate.png"
+                            alt="Certificate 2"
+                        >
                     </div>
-                    <div class="project-content">
-                        <div class="project-number">03</div>
-                        <h3>AI Coding Platform</h3>
-                        <p>
-                            A LeetCode-style coding platform with an AI assistant 
-                            that provides contextual hints and guidance without directly revealing solutions.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Next.js</span>
-                            <span>FastAPI</span>
-                            <span>PostgreSQL</span>
-                            <span>Redis</span>
-                        </div>
-                        <div class="project-links">
-                            <a 
-                                href="https://github.com/Nishant-Devlal/AI-Coding-Platform"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <!-- <a href="" target="_blank" rel="noopener noreferrer">
-                                Try it Live
-                            </a> -->
-                        </div>
+                    <div class="certificate-content">
+                        <h3>Foundations: Data, Data, Everywhere</h3>
+                        <p>Coursera/Google</p>
+                        <span>2026</span>
                     </div>
                 </article>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/plant-disease-detection.png" alt="PlantGuard AI">
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/os-certificate.png"
+                            alt="Certificate 3"
+                        >
                     </div>
-                    <div class="project-content">
-                        <div class="project-number">04</div>
-                        <h3>PlantGuard AI</h3>
-                        <p>
-                            A plant disease detection web app that uses a deep learning model
-                            to identify diseases from images of plant leaves.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Streamlit</span>
-                            <span>Tensorflow</span>
-                            <span>Numpy</span>
-                            <span>Opencv</span>
-                        </div>
-                        <div class="project-links">
-                            <a
-                                href="https://github.com/Nishant-Devlal/Plant-Disease-Detection"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <a
-                                href="https://plant-disease-detection-by-nishant-devlal.streamlit.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Try it live
-                            </a>
-                        </div>
+                    <div class="certificate-content">
+                        <h3>Operating Systems and You: Becoming a Power User</h3>
+                        <p>Coursera/Google</p>
+                        <span>2026</span>
                     </div>
                 </article>
 
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/stega-seal.png" alt="Stega Seal">
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/ml-certificate.png"
+                            alt="Certificate 4"
+                        >
                     </div>
-                    <div class="project-content">
-                        <div class="project-number">05</div>
-                        <h3>Stega Seal</h3>
-                        <p>
-                            A desktop steganography application built with
-                            Python and Tkinter that allows users to hide and
-                            extract text messages inside images.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Tkinter</span>
-                            <span>PIL</span>
-                            <span>Stegano</span>
-                            <span>pyttsx3</span>
-                        </div>
-                        <div class="project-links">
-                            <a
-                                href="https://github.com/Nishant-Devlal/Stega-Seal-Seal-Text-in-Images-Steganography-Application-/tree/main"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <a
-                                href="https://github.com/Nishant-Devlal/Stega-Seal-Seal-Text-in-Images-Steganography-Application-/releases/tag/v1.2.003"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Download App
-                            </a>
-                        </div>
+                    <div class="certificate-content">
+                        <h3>Explore Machine Learning using Python</h3>
+                        <p>Infosys Springboard</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/dsa-certificate.png"
+                            alt="Certificate 5"
+                        >
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Data Structure and Algorithms</h3>
+                        <p>Infosys Springboard</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/java-certificate.png"
+                            alt="Certificate 6"
+                        >
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Core Java Programming</h3>
+                        <p>Infosys Springboard</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/dbms-certificate.png"
+                            alt="Certificate 7"
+                        >
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Introduction to Modern Database Systems</h3>
+                        <p>Saylor</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/software-engineering-certificate.png"
+                            alt="Certificate 8"
+                        >
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Software Engineering</h3>
+                        <p>NPTEL</p>
+                        <span>2025</span>
+                    </div>
+                </article>
+
+                <article class="certificate-card">
+                    <div class="certificate-image">
+                        <img
+                            src="assets/images/certificates/python-certificate.png"
+                            alt="Certificate 9"
+                        >
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Python Fundamentals</h3>
+                        <p>Infosys Springboard</p>
+                        <span>2024</span>
                     </div>
                 </article>
 
             </div>
         </div>
-
-
-        <div class="project-category other-projects">
-            <div class="project-category-heading">
-                <h3>Other Projects</h3>
-                <p>
-                    Smaller applications and projects that helped me
-                    strengthen my programming and development skills.
-                </p>
-            </div>
-
-            <div class="projects-grid">
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/calculator.png" alt="Calculator application">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-number">06</div>
-                        <h3>Calculator Application</h3>
-                        <p>
-                            A desktop calculator application built with
-                            Python and Tkinter that provides a graphical
-                            interface for performing arithmetic operations.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Tkinter</span>
-                            <span>GUI</span>
-                        </div>
-                        <div class="project-links">
-                            <a
-                                href="https://github.com/Nishant-Devlal/Simple-Calculator-Using-Python"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <a
-                                href="https://github.com/Nishant-Devlal/Simple-Calculator-Using-Python/releases/tag/v1.0"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Download App
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/song-recommender.png" alt="Song Recommender application">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-number">07</div>
-                        <h3>Song Recommendation System</h3>
-                        <p>
-                            A content-based song recommendation system that uses
-                            TF-IDF vectorization and cosine similarity on song lyrics
-                            to recommend similar Bollywood songs.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Streamlit</span>
-                            <span>Spotipy</span>
-                            <span>TF-IDF Vectorizer</span>
-                        </div>
-                        <div class="project-links">
-                            <a
-                                href="https://github.com/Nishant-Devlal/Song-Recommendation-System"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            <a
-                                href="https://song-recommendation-system-by-nishant-devlal.streamlit.app/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Try it Live
-                            </a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/projects/coming-soon.png" alt="Coming Soon">
-                    </div>
-                    <div class="project-content">
-                        <div class="project-number">08</div>
-                        <h3>More Projects Coming Soon</h3>
-                        <p>
-                            I'm continuously working on new software,
-                            machine learning and AI projects. More projects
-                            will be added here as I build them.
-                        </p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>C++</span>
-                            <span>AI/ML</span>
-                            <span>HTML</span>
-                            <span>CSS</span>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-    </div>
-
-</section>
+    </section>
 
     <section id="education" class="section section-dark">
         <div class="container">
