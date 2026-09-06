@@ -21,3 +21,19 @@ link.addEventListener("click", function (event) {
 
 });
 
+const projectCards = document.querySelectorAll(".project-card");
+
+projectCards.forEach(card => {
+    const video = card.querySelector("video");
+    if (!video) return;
+
+    card.addEventListener("mouseenter", () => {
+        video.play().catch(() => {
+        });
+    });
+
+    card.addEventListener("mouseleave", () => {
+        video.pause();
+        video.currentTime = 0;
+    });
+});
